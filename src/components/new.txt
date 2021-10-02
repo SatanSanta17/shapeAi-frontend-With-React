@@ -1,0 +1,7 @@
+
+import {Route} from "react-router-dom"
+import contact from './components/contact'
+import home from './components/home'
+
+<Route path="/" component={home}/>
+      <Route path="/contact" component={contact}/>
